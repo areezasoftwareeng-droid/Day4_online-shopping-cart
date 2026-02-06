@@ -147,9 +147,6 @@ def show_menu():
 # Show selected category items
 
 def show_selected_items(category):
-    if category not in items:
-        print("Sorry! No item found")
-        return
     
     print(f"\n=== {category.upper()} ===")
 
